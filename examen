@@ -1,0 +1,63 @@
+	
+	Nombre: Christian Arturo Sánchez Estrella
+	Grupo: Vespertino 1
+	Fecha: 23 de noviembre 2019
+	
+	GIT
+	
+	01. ¿Cual es la diferencia entre git y GitHUB?
+		Git es una herramienta para control de versiones que funciona de manera local mientras que GitHUB es un repositorio en línea para mantener ese control de versiones en la nube
+		y disponible para mas usuarios en diferentes partes del mundo. Necesita tener una version de git de manera local para funcionar correctamente.
+
+	02. ¿En cuantos y cuales estados puede estar un archivo?
+		* Untracked
+		* Tracked
+			- commited
+			- modified
+			- Staged
+
+	03. ¿Para que sirve el comando "git add ." ?
+		Agrega todos los archivos que hayan tenido alguna modificación para que despues puedas hacer un commit.
+
+	04. ¿Cuales son los 4 datos mas relevantes a la hora de hacer un commit?
+		- ID
+		- Autor
+		- Fecha
+		- Mensaje
+
+	05. ¿Cual es el comando para crear una rama en mi repositorio?
+		git branch nombre_de_la_rama
+
+	JIRA
+	
+	06. Defina lo que es un issue:
+		Es un problema a resolver dentro de un proyecto
+
+	07. En kanban y scrum, ¿Cuales son las columnas default de un tablero?
+		kanban: Backlog, Selected for development, in progress, done
+		SCRUM: To Do, In Progress, Done
+
+	08. ¿Como se selecciona un Dashboard para mostrarse en la pantalla de bienvenida?
+		Para crearlo, desde manage dashboard, create dashboard. Para seleccionarlo: Una vez que tenemos más de un dashboar nos aparece una barra lateral en la pantalla principal y ahí podemos seleccionar nuestro nuevo dashboard.
+
+	Jenkins
+	
+	09. ¿Cual es el atajo (ruta relativa) para el directorio home de un usuario de ubuntu?
+		~/
+		para cambiarte al directorio sería cd ~/
+
+	10. ¿Como se installa Jenkins en un sistema linux?
+		1. Primero se instala la llave del repo:
+		wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+		
+		2. Agregamos el repositorio a nuestro sources.list
+		sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+
+		3. Actualizamos nuestros repos
+		sudo apt-get update
+
+		4. Instalamos jenkins
+		sudo apt-get install jenkins
+
+	11. ¿Cual es la relacion entre Hudson y Jenkins?
+		Ambos son herramientas para continous integration. El proyecto original es Hudson creado por Sun como alternativa a CruiseControl. Sin embargo después de que Sun fué comprado por Oracle hubo varios problemas y un grupo de desarrolladores decidió crear un fork de Hudson mantenido por la comunidad al cual llamaron Jenkins.
